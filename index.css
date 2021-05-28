@@ -21,10 +21,10 @@ body {
     margin-bottom: 40px;
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family:'Oswald', sans-serif,'Roboto', sans-serif;
 }
-.propInfo {
-    grid-area: propInfo;
+.main {
+    grid-area: main;
 }
 .secciones {
     padding: 30px 30px 30px 0px;
@@ -47,7 +47,7 @@ h2 {
     grid-template-areas: 
     "navbar"
     "title"
-    "propInfo"
+    "main"
     "foto"
     "social";
 }
@@ -77,7 +77,7 @@ h2 {
         grid-template: 
         "navbar navbar" 50px
         "title title" 180px
-        "propInfo foto" auto
+        "main foto" auto
         "social social" 150px /
         50% 50%;
         gap: 20px;
