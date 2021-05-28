@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Tasador Inmobiliario</title>
+</head>
+<body class="container">
+<nav class="navbar navbar-expand-md navbar-gray fixed-top bg-gray enlace">
+    <a class="navbar-brand" href="index.html"><img src="img/foca.png" alt="Foca logo"></img></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="views/nosotros.html">Nosotros</a>
+        </li>
+    </div>
+</nav>
+<header class="title">
+    <h2 class="display-3">Bienvenido</h2>
+    <p>Este es un tasador de propiedades radicadas en la ciudad autónoma de Buenos Aires, Argentina</p>
+</header>
+<main class="propInfo">
+    <form action="#" method="post">
+        <div class="secciones">
+            <h3>Barrio</h3>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione barrio</option>
+                <option value="1">Agronomía</option>
+                <option value="2">Almagro</option>
+                <option value="3">Balvanera</option>
+                <option value="4">Barracas</option>
+                <option value="5">Belgrano</option>
+                <option value="6">Boedo</option>
+                <option value="7">Caballito</option>
+                <option value="8">Chacarita</option>
+                <option value="9">Coghlan</option>
+                <option value="10">Colegiales</option>
+                <option value="11">Constitución</option>
+                <option value="12">Flores</option>
+                <option value="13">Floresta</option>
+                <option value="14">La Boca</option>
+                <option value="15">La Paternal</option>
+                <option value="16">Liniers</option>
+                <option value="17">Mataderos</option>
+                <option value="18">Monte Castro</option>
+                <option value="19">Montserrat</option>
+                <option value="20">Nueva Pompeya</option>
+                <option value="21">Nuñez</option>
+                <option value="22">Palermo</option>
+                <option value="23">Parque Avellaneda</option>
+                <option value="24">Parque Chacabuco</option>
+                <option value="25">Parque Chas</option>
+                <option value="26">Parque Patricios</option>
+                <option value="27">Puerto Madero</option>
+                <option value="28">Recoleta</option>
+                <option value="29">Retiro</option>
+                <option value="30">Saavedra</option>
+                <option value="31">San Cristóbal</option>
+                <option value="32">San Nicolás</option>
+                <option value="33">San Telmo</option>
+                <option value="34">Versalles</option>
+                <option value="35">Villa Crespo</option>
+                <option value="36">Villa Devoto</option>
+                <option value="37">Villa General Mitre</option>
+                <option value="38">Villa Lugano</option>
+                <option value="39">Villa Luro</option>
+                <option value="40">Villa Ortúzar</option>
+                <option value="41">Villa Pueyrredón</option>
+                <option value="42">Villa Real</option>
+                <option value="43">Villa Riachuelo</option>
+                <option value="44">Villa Santa Rita</option>
+                <option value="45">Villa Soldati</option>
+                <option value="46">Villa Urquiza</option>
+                <option value="47">Villa del Parque</option>
+                <option value="48">Vélez Sarsfield</option>
+            </select>
+            </div>
+        </div>
+        <div class="secciones">
+            <h3>Tipo de propiedad</h3>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    PH
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Depto
+                </label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                    Casa
+                </label>
+            </div>
+        </div>
+        <div class="secciones">
+            <h3>Superficie m3</h3>
+            <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
+        </div>
+        <div class="secciones">
+            <h3>Cantidad de ambientes</h3>
+            <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
+        </div>
+        <div class="secciones">
+            <h3>Cantidad de baños</h3>
+            <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
+        </div>
+        <button type="button" class="btn btn-warning btn-lg">Cotizar</button>
+    </form>
+</main>
+<section class="foto">
+    <img src="img/mapa.jpg" alt="mapa ciudad autonoma de Buenos Aires">
+</section>
+<footer class="social">
+    <hr>
+    <div class="infoSocial">
+        <h4>About</h4>
+        <a class="enlace" href="views/nosotros.html">Quiénes somos</a>
+        <p>Bariloche, Río Negro - Argentina</p>
+    </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>
