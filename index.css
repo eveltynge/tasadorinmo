@@ -64,11 +64,11 @@ h2 {
     background-color: #F5D88D;
     font-family: 'Roboto', sans-serif;
 }
-.nav-item a {
+.navbar a {
     color: black;
     font-size: 22px;
 }
-.nav-item a:hover {
+.navbar a:hover {
     text-shadow: 2px 2px 4px gray;
     color: black;
 }
