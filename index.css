@@ -62,7 +62,7 @@ h2 {
     margin-bottom: 30px;
     padding-bottom: 15px;
 }
-.container {
+.grid {
     display: grid;
     gap: 10px;
     grid-template: 
@@ -74,7 +74,7 @@ h2 {
     100%;
 }
 @media (min-width: 600px) {
-    .container {
+    .grid {
         grid-template: 
         "navbar navbar" 50px
         "title title" 180px
