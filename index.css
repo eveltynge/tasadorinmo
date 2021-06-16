@@ -14,10 +14,10 @@ body {
 }
 .navbar {
     grid-area: navbar;
+    background-color: #F5D88D;
 }
 .title {
     grid-area: title;
-    margin-top: 50px;
     margin-bottom: 40px;
 }
 h2 {
@@ -27,7 +27,7 @@ h2 {
     grid-area: main;
 }
 .secciones {
-    padding: 30px 30px 30px 0px;
+    padding: 15px 15px 15px 0px;
 }
 .foto {
     grid-area: foto;
@@ -45,7 +45,7 @@ h2 {
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    font-size: 22px;    
+    font-size: 20px;    
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
@@ -53,18 +53,14 @@ h2 {
     text-shadow: 2px 2px 4px gray;
     color: black;
 }
-.navbar {
-    background-color: #F5D88D;
-}
 .profile {
     margin: 10px auto;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     padding-bottom: 15px;
 }
 .grid {
     display: grid;
-    gap: 10px;
     grid-template: 
     "navbar" 50px
     "title" 180px
@@ -76,12 +72,11 @@ h2 {
 @media (min-width: 600px) {
     .grid {
         grid-template: 
-        "navbar navbar" 50px
-        "title title" 180px
+        "navbar navbar" 80px
+        "title title" auto
         "main foto" auto
         "social social" 150px /
         50% 50%;
-        gap: 20px;
     }
     .card {
         margin: 15px;
