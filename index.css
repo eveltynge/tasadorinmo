@@ -18,24 +18,27 @@ body {
 }
 .title {
     grid-area: title;
-    margin-bottom: 40px;
+}
+.titulo {
+    padding-left: 20px;
+}
+.carousel-caption {
+    text-shadow: 2px 2px 4px black;
+    color: white;
+    font-size: large;
 }
 h2 {
     font-family:'Oswald', sans-serif,'Roboto', sans-serif;
 }
 .main {
     grid-area: main;
-    margin: 10px;
+    margin: 30px;
 }
 .secciones {
-    padding: 15px 15px 15px 0px;
+    padding: 5px 5px 5px 0px;
 }
 .foto {
     grid-area: foto;
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    margin: 10px;
 }
 .social {
     grid-area: social;
@@ -56,19 +59,12 @@ h2 {
     text-shadow: 2px 2px 4px gray;
     color: black;
 }
-.profile {
-    margin: 10px auto;
-    text-align: center;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-}
 .grid {
     display: grid;
     grid-template: 
     "navbar" 50px
     "title" 180px
     "main" auto
-    "foto" auto
     "social" 100px /
     100%;
 }
@@ -77,11 +73,8 @@ h2 {
         grid-template: 
         "navbar navbar" 80px
         "title title" auto
-        "main foto" auto
+        "main main" auto
         "social social" 150px /
-        70% 30%;
-    }
-    .card {
-        margin: 15px;
+        100%;
     }
 }
