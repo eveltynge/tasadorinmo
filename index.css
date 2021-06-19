@@ -25,6 +25,7 @@ h2 {
 }
 .main {
     grid-area: main;
+    margin: 10px;
 }
 .secciones {
     padding: 15px 15px 15px 0px;
@@ -33,6 +34,8 @@ h2 {
     grid-area: foto;
     display: flex;
     justify-content: center;
+    height: 200px;
+    margin: 10px;
 }
 .social {
     grid-area: social;
@@ -76,7 +79,7 @@ h2 {
         "title title" auto
         "main foto" auto
         "social social" 150px /
-        50% 50%;
+        70% 30%;
     }
     .card {
         margin: 15px;

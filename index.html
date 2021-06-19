@@ -10,11 +10,7 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
     <!-- CSS -->
     <link rel="stylesheet" href="index.css">
     <title>Tasador Inmobiliario</title>
@@ -85,10 +81,10 @@
 </header>
 <main class="main">
     <form action="#" method="post">
-        <div class="row">
-          <div class="secciones">
-              <h5>Barrio</h5>
-              <select class="form-select" aria-label="Default select example">
+        <div>
+          <div class="secciones row">
+              <h5 class="col-3">Barrio</h5>
+              <select class="form-select col-4" aria-label="Default select example">
                   <option selected>Seleccione barrio</option>
                   <option value="1">Abasto</option>
                   <option value="2">Agronomía</option>
@@ -150,8 +146,8 @@
                   <option value="58">Villa del Parque</option>
               </select>
           </div>
-          <div class="secciones">
-              <h5>Tipo de propiedad</h5>
+          <div class="secciones row">
+              <h5 class="col-3">Tipo de propiedad</h5>
               <div class="form-check form-check-inline">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                   <label class="form-check-label" for="flexRadioDefault1">
@@ -171,16 +167,16 @@
                   </label>
               </div>
           </div>
-          <div class="secciones">
-              <h5>Superficie m3</h5>
+          <div class="secciones row">
+              <h5 class="col-2">Superficie m3</h5>
               <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
           </div>
-          <div class="secciones">
-              <h5>Cantidad de ambientes</h5>
+          <div class="secciones row">
+              <h5 class="col-2">Cantidad de ambientes</h5>
               <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
           </div>
-          <div class="secciones">
-              <h5>Cantidad de baños</h5>
+          <div class="secciones row">
+              <h5 class="col-2">Cantidad de baños</h5>
               <input class="form-control form-control-sm" type="text" aria-label=".form-control-sm example">
           </div>
         </div>
@@ -216,7 +212,7 @@
     </form>
 </main>
 <section class="foto">
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=capital%20federal,%20buenos%20aires&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmoviwes</a><br><style>.mapouter{position:relative;text-align:right;height:650px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:650px;width:600px;}</style></div></div>
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="530" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=capital%20federal&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:300px;width:530px;}</style><a href="https://www.embedgooglemap.net">html code for google maps</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:300px;width:530px;}</style></div></div>
 </section>
 <footer class="social">
     <hr>
@@ -228,5 +224,10 @@
         </ul>
     </div>
 </footer> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
