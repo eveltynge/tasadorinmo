@@ -33,6 +33,7 @@ h2 {
 .main {
     grid-area: main;
     margin: 30px;
+    display: flex;
 }
 .secciones {
     padding: 5px 5px 5px 0px;
