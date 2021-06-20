@@ -61,9 +61,12 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
-.MP {
+.mp {
     font-family: 'Mate SC', serif;
     text-transform: none;
+}
+.card {
+    margin: 5px;
 }
 .enlace:hover {
     text-shadow: 2px 2px 4px gray;
@@ -71,6 +74,12 @@ h2 {
 }
 .button {
     margin-top: 20px;
+}
+.profile {
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .grid {
     display: grid;
